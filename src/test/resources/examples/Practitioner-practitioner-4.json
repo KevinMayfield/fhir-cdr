@@ -1,0 +1,54 @@
+{
+  "resourceType": "Practitioner",
+  "id": "practitioner-4",
+  "meta": {
+    "lastUpdated": "2019-06-25T09:29:16.325+00:00",
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://fhir.hl7.org.uk/Id/gmc-number",
+      "value": "G8133438"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "family": "Bhatia",
+      "given": [
+        "AA"
+      ],
+      "prefix": [
+        "Dr"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "abhatia@nhs.skynet",
+      "use": "work"
+    },
+    {
+      "system": "phone",
+      "value": "0115 9737320",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "use": "work",
+      "line": [
+        "The Moir Medical Centre",
+        "Regent Street, Long Eaton",
+        "Nottingham"
+      ],
+      "city": "Nottingham",
+      "district": "Derbyshire",
+      "postalCode": "NG10 1QQ"
+    }
+  ],
+  "gender": "male"
+}

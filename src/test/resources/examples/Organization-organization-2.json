@@ -1,0 +1,43 @@
+{
+  "resourceType": "Organization",
+  "id": "organization-2",
+  "meta": {
+    "lastUpdated": "2019-06-25T08:40:33.309+00:00",
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+      "value": "C81010"
+    }
+  ],
+  "active": true,
+  "name": "The Moir Medical Centre",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "0115 9737320",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "use": "work",
+      "type": "both",
+      "line": [
+        "The Moir Medical Centre",
+        "Regent Street, Long Eaton",
+        "Nottingham"
+      ],
+      "city": "Nottingham",
+      "district": "Derbyshire",
+      "postalCode": "NG10 1QQ"
+    }
+  ],
+  "partOf": {
+    "reference": "Organization/organization-3",
+    "display": "Nhs Erewash Ccg"
+  }
+}

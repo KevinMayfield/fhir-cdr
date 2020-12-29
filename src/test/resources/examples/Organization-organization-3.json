@@ -1,0 +1,31 @@
+{
+  "resourceType": "Organization",
+  "id": "organization-3",
+  "meta": {
+    "lastUpdated": "2019-06-25T08:39:39.391+00:00",
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+      "value": "03X"
+    }
+  ],
+  "active": true,
+  "name": "Nhs Erewash Ccg",
+  "address": [
+    {
+      "use": "work",
+      "type": "both",
+      "line": [
+        "Toll Bar House",
+        "1 Derby Road"
+      ],
+      "city": "Ilkeston",
+      "district": "Derbyshire",
+      "postalCode": "DE7 5FH"
+    }
+  ]
+}
