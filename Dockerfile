@@ -1,7 +1,7 @@
 FROM openjdk:11-slim
 VOLUME /tmp
 
-ENV JAVA_OPTS="-Xms128m -Xmx4096m"
+ENV JAVA_OPTS="-Xms128m -Xmx2048m"
 
 ADD target/fhir-cdr.jar fhir-cdr.jar
 
